@@ -206,3 +206,16 @@
   { name: 'Charlie', age: 22 }
 ]
 */
+
+
+// 20. Ваша задача — эффективно сгруппировать слова в анаграммы.
+
+// // input
+// ["tsar", "rat", "tar", "star", "tars", "cheese"]
+
+// // output
+// [
+//   ["tsar", "star", "tars"],
+//   ["rat", "tar"],
+//   ["cheese"]
+// ]
