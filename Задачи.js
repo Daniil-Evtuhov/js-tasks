@@ -219,3 +219,21 @@
 //   ["rat", "tar"],
 //   ["cheese"]
 // ]
+
+// 21. Написать функцию debounce
+
+// function debounce(func, delay) {
+//   let timer;
+
+//   return function (...args) {
+//     const context = this;
+
+//     if (timer) {
+//       clearTimeout(timer); // Очищаем предыдущий таймер, если он уже существует
+//     }
+
+//     timer = setTimeout(() => {
+//       func.apply(context, args); // Вызываем функцию с сохранением контекста и переданных аргументов
+//     }, delay);
+//   };
+// }
